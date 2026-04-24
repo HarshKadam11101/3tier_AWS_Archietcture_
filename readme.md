@@ -32,23 +32,28 @@ During the build, I encountered and resolved several complex systems engineering
 **Prerequisites:** AWS CLI configured, Terraform installed.
 
 1. Clone the repository.
+
 2. Initialize the working directory:
-   ```bash
+  ```bash
    terraform init
+
 3. Create a terraform.tfvars file (git-ignored) and add your database credentials:
   ```bash
-  db_username = "YourUserName"
-  db_password = "YourSecurePassword"
-  db_name = "YourDatabaseName"
+    db_username = "YourUserName"
+    db_password = "YourSecurePassword"
+    db_name = "YourDatabaseName"
+
 4. Review the execution plan:
   ```bash
-  terraform plam
+    terraform plam
+
 5. Provision the infrastructure:
   ```bash
-  terraform apply
+    terraform apply
+    
 6. Access the application via the ALB DNS name provided in the Terraform outputs.
 
 ## Cleanup
 To avoid incurring AWS charges, destroy the infrastructure when not in use:
   ```bash
-  terraform destroy
+    terraform destroy
