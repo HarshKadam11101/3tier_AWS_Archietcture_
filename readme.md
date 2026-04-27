@@ -5,7 +5,7 @@
 This project provisions a production-grade, highly available 3-tier web architecture on AWS using Terraform. The infrastructure is fully modularized, separating networking, security, compute, and database components to follow Infrastructure as Code (IaC) best practices.
 
 ## Architecture Diagram
-![Highly Available 3-Tier AWS Architecture](Highly Available 3-Tier AWS Architecture.drawio (1).png)
+<img width="3963" height="2043" alt="Image" src="https://github.com/user-attachments/assets/8ca512a8-86b0-4773-9437-df21e3a1e6b3" />
 
 ## Technology Stack
 
